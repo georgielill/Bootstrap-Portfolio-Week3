@@ -3,12 +3,23 @@
   align-items: flex-end;
 } */
 
+.projects {
+  display: flex;
+  align-items: center;
+  margin: 20px
+}
 
+.projects h2 {
+  display: flex;
+  justify-content: center;
+}
 
 .contactMe {
   display: flex;
   justify-content: center;
+  border: 5px;
   margin-top: 20px;
+
 }
 
 footer {

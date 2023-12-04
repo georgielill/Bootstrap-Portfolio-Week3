@@ -1,17 +1,23 @@
-/* #image {
+.hero img {
   display: flex;
   align-items: flex-end;
-} */
+}
+
+.jumbo {
+  padding: 10px;
+}
+
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
 
 .projects {
   display: flex;
-  align-items: center;
-  margin: 20px
-}
-
-.projects h2 {
-  display: flex;
+  flex-direction: row;
   justify-content: center;
+  margin: 20px;
 }
 
 .contactMe {
@@ -19,6 +25,13 @@
   justify-content: center;
   border: 5px;
   margin-top: 20px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 30px;
 
 }
 

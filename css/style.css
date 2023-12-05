@@ -1,12 +1,6 @@
-.hero img {
-  display: flex;
-  align-items: flex-end;
+hero {
+  background-color: blue;
 }
-
-.jumbo {
-  padding: 10px;
-}
-
 
 h2 {
   display: flex;
@@ -20,23 +14,27 @@ h2 {
   margin: 20px;
 }
 
-.contactMe {
-  display: flex;
-  justify-content: center;
-  border: 5px;
-  margin-top: 20px;
-}
-
 .skills {
   display: flex;
   justify-content: center;
   margin: 20px;
   margin-top: 30px;
+}
 
+
+
+btn:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, .2);
+}
+
+.contactMe {
+  display: flex;
+  justify-content: center;
 }
 
 footer {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  font-size: 10px;
 }

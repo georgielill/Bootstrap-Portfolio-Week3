@@ -21,6 +21,13 @@ h2 {
   margin-top: 30px;
 }
 
+.custom-button {
+  transition: box-shadow 0.3 ease-in-out;
+}
+
+.custom-button:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, .2);
+}
 
 
 .contactMe {
